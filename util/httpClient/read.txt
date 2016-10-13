@@ -1,0 +1,7 @@
+导入的jar包：
+
+fluent-hc-4.2.1.jar
+httpclient-4.2.1.jar
+httpclient-cache-4.2.1.jar
+httpcore-4.2.1.jar
+httpmime-4.2.1.jar
