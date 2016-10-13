@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.leapframework.org/schema/config">
+	<base-package>leap.demo</base-package>
+	<properties>
+		<!-- <property name="h2.driverClassName">org.h2.Driver</property>
+        <property name="h2.jdbcUrl">jdbc:h2:classpath:/resources/h2db</property>
+        <property name="h2.username">test</property>
+        <property name="h2.password">test</property> -->
+        <property name="jdbcDriver">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/leap</property>
+		<property name="jdbcUsername">root</property>
+		<property name="jdbcPassword">yabushan2015</property>
+	</properties>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.leapframework.org/schema/beans" default-lazy-init="true">
+    
+  <!--   <bean name="h2" type="javax.sql.DataSource" class="leap.core.ds.UnPooledDataSource" primary="true">
+        <property name="driverClassName" value="${h2.driverClassName}" />
+        <property name="jdbcUrl"             value="${h2.jdbcUrl}" />
+        <property name="username"        value="${h2.username}" />
+        <property name="password"        value="${h2.password}" />
+    </bean> -->
+    
+    <bean name="default" type="javax.sql.DataSource" class="leap.core.ds.UnPooledDataSource" primary="true">
+        <property name="driverClassName" value="${jdbcDriver}"></property>
+        <property name="jdbcUrl" value="${jdbcUrl}"></property>
+        <property name="username" value="${jdbcUsername}"></property>
+        <property name="password" value="${jdbcPassword}"></property>
+</bean>
+</beans>
